@@ -1,0 +1,14 @@
+543ee8519ef9137ee6f36866bb9fab15  a.out
+aa97717c7defdef16d21e653362dbd0b  funkcja.c
+d90fa045b84e1078c811dd617da5b079  globalne.sh
+dd9f1bf7ab1078f56799366803d4be73  idea1.asm
+e540c811a751d0b52ddc4136526cb7b8  idea2.asm
+6fbe6c6124cd14ec1fa2b6d1448c5c09  idea3.asm
+5a55bde342be8daae264f046518745ec  kopia.c
+6246210cfb04ae87c7925ce22a09c129  metoda.cpp
+3d988ba0a10d780a3b3ce9552926e170  podprogramy.odp
+c4d068a887d6169697c16b0859ca47a9  procedura.sh
+a4dec62f06d1f914f2fc75467bdd2238  referencja.c
+664892721a01fa7c28fc26f5b646ea8a  rekurencja.c
+07f7a031e5e7771659fccaeb1d66e441  rekurencja.png
+b8a6ac00612d0a174db26c38d06f9137  wielowatkowosc.c
