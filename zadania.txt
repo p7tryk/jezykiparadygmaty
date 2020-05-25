@@ -1,0 +1,23 @@
+Języki i paradygmaty programowania – Zadania na laboratorium
+
+1. Napisać program liczący silnię ( rekurencyjnie i iteracyjnie) w językach Haskell i C++.
+
+2. W dwóch dowolnych językach programowania napisać program do sumowania elementów
+listy o zadanej długości (przy założeniu że lista składa się z samych liczb). Lista powinna być
+uzupełniana dynamicznie.
+
+3. Napisz jak najprostszą funkcję w Haskellu odwracającą podaną listę. Ile operacji ona
+potrzebuje, by odwrócić listę o długości n?
+
+4. Zdefiniuj na dwa sposoby funkcję, która do danej liczby całkowitej dodaje 5.
+
+5. Zdefiniować funkcję połącz, która połączy listę list w jedną listę. Przykładowo, połącz [[1, 2],
+[3, 4, 5], [6]] ma dać wynik [1, 2, 3, 4, 5, 6]. Rozwiązanie zaproponować dla dwóch różnych
+języków.
+
+6. Napisz program , który z tablicy liczb wypisze tylko liczby parzyste.
+
+7. Napisz program w dowolnym języku, który pokazywałby różnicę między (a) przekazywaniem
+parametrów przez wartość i wynik a (b) przekazywaniem przez referencję. Chodzi o to, by
+program wypisywał inny komunikat, jeśli zostanie uruchomiony przy założeniu (a), a inny przy
+(b).
