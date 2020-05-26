@@ -6,4 +6,3 @@ main = do
   input <- getLine
   let list = read input :: [Int]
   print list
-  length list :: [Int]
