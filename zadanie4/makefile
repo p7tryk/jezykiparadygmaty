@@ -1,2 +1,2 @@
-zadanie4: dodaj5.c
-	gcc -o zadanie4 dodaj5.c
+zadanie4.out: dodaj5.c
+	gcc -o zadanie4.out dodaj5.c

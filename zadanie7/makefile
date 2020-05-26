@@ -1,2 +1,2 @@
-zadanie7: przekazywanie.c
-	  gcc -o zadanie7 przekazywanie.c
+zadanie7.out: przekazywanie.c
+	  gcc -o zadanie7.out przekazywanie.c

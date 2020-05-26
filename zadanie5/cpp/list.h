@@ -29,6 +29,8 @@ class elementList{
   element * getEnd() {return m_end;};
   element * getNext(element * ptr) {return ptr->m_next;};
   element * getPrev(element * ptr) {return ptr->m_prev;};
+
+  friend elementList * join(elementList * list1, elementList * list2);
 };
 elementList::elementList()
 {

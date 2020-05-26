@@ -1,2 +1,2 @@
-zadanie1: silnia.c
-	gcc -o zadanie1 silnia.c
+zadanie1.out: silnia.c
+	gcc -o zadanie1.out silnia.c

@@ -14,7 +14,7 @@ void parzyste(int * ptr, int length)
 int main()
 {
   int liczba;
-  printf("podaj dlugość listy\n");
+  printf("podaj dlugość tablicy\n");
   scanf("%d",&liczba);
 
   int * ptr = (int*) malloc(liczba* sizeof(int));

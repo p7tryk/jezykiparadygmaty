@@ -1,2 +1,2 @@
-zadanie2: main.cpp
-	g++ -o zadanie2 main.cpp
+zadanie2.out: main.cpp list.h
+	g++ -o zadanie2.out main.cpp

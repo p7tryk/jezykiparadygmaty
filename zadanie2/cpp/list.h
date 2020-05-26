@@ -64,7 +64,7 @@ void elementList::removeall()
     }
   m_begin=m_end=nullptr;
   m_size=0;
-  printf("\nremoved %d records,freed %ld bytes\n", freed, freed*sizeof(element));
+  //printf("\nremoved %d records,freed %ld bytes\n", freed, freed*sizeof(element));
 }
 int elementList::getSize()
 {
