@@ -1,0 +1,36 @@
+# 1. Jaka jest złożoność obliczeniowa O()  odwracania tablicy (np. w zadaniu 3)
+
+Złożoność obliczeniowa odwracania tablicy jest liniowa czyli O(n)
+
+void reverse(int * array)
+{
+	int j = array.length;
+	for(int i = 0; i<j/2; i++)
+	{
+		int temp = array[i];
+		array[i] = array[j-i-1];
+		array[j-i-1] = temp;
+	}
+}
+
+Jak widac na przykładzie pętla(zamiany) wykona sie długość/2 razy (liniowo) i są tam wykonywanie 3 operacje
+
+
+# 2. Jakie są różnice między rekurencją i iteracją ?
+
+rekurencja występuje kiedy funkcja wywołuje samą siebie a iteracja to jest zestaw instrukcji które wykonywane są wiele razy.
+rekurencja używa mechanizmu funkcji aby przekazywać dane kolejnym iteracja (używa pamieci na staku).
+iteracja i rekurencja podobnie używaja kondycji i wartości kontrolnych aby zakonczyć wykonywanie, natomiast rekurencja musi również złożyć wszystkie wywołane funkcje (może być zoptymalizowane używając tail recursion)
+Oba rozwiązania mogą nigdy sie nie zakonczyć (out of memory albo w przypadku iteracji poprostu marnowanie cykli procesora).
+W wielu przypadkach implementacja rekurencji może zmniejszyć liczbe kodu.
+
+
+
+# 3. W jaki sposób w języku funkcyjnym można zapisać dodawanie liczby 5 do liczby całkowitej?
+
+w jezyku emacslisp wykorzystując funkcje "+" i zapisując wynik tej funkcji do zmiennej:
+
+(setq a 10)
+(message "%d" a )
+(setq a (+ a 5))
+(message "%d" a )
