@@ -8,8 +8,7 @@ int sum(elementList * list)
     {
       sum += ptr->getNumber();
       ptr=list->getNext(ptr);
-    }
-  
+    }  
   return sum;
 }
 
@@ -20,7 +19,7 @@ int main(int argc, char ** argv)
   int amount = 0;
   printf("podaj liczbe elementów\n");
   scanf("%d",&amount);
-  for(int i; i<amount;i++)
+  for(int i= 0; i<amount;i++)
     {
       int input;
       element * ptr;
